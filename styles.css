@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+nav {
+  margin: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+footer {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* ======================================
+   ADDED FOR JAVASCRIPT VALIDATION
+====================================== */
+
+/* Red border when invalid */
+.invalid-input {
+  border: 2px solid red !important;
+}
+
+/* Red text inside invalid field */
+input.invalid-input {
+  color: red !important;
+}
